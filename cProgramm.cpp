@@ -11,7 +11,7 @@ void mainMenu(void) {
 	local(4, 20);  printf("C编程演示系统\n");
 	local(1, 24);  printf("1. C基本数据\n");
 	colum_n(24);  printf("2. 顺序结构\n");
-	colum_n(24);  printf("3. 分枝结构\n");
+	colum_n(24);  printf("3. 分支结构\n");
 	colum_n(24);  printf("4. 循环结构\n");
 	colum_n(24);  printf("5. 函数结构\n");
 	colum_n(24);  printf("6. 数组结构\n");
@@ -48,7 +48,8 @@ void dispMenu2_1(void) {
 }
 
 #include "menu2_1.h" 
-
+#include "menu2_2.h" 
+#include "menu2_3.h" 
 void menu2_1(void) {
 	char cho2_1;
 	while (1) {
@@ -59,7 +60,7 @@ void menu2_1(void) {
 		switch (cho2_1)
 		{
 		case '1': m2_1_1();     break;
-		case '2': m2_1_2();     break;
+		case '2':     break;
 		case '3':      break;
 		case '4':      break;
 		case '5':      break;
@@ -78,6 +79,8 @@ void dispMenu2_2() {
 	local(4, 20);  printf("C顺序结构编程\n");
 	local(1, 24);  printf("1. 格式符与格式串\n");
 	colum_n(24);  printf("2. 键盘输入scanf()\n");
+	colum_n(24);  printf("3. 键盘输出printf()\n");
+	colum_n(24);  printf("4. 表达式与语句\n");
 
 	//…… 
 	local(2, 24);  printf("0. 返回\n");
@@ -96,17 +99,41 @@ void menu2_2(void) {
 		if (cho2_2 == '0') break;
 		switch (cho2_2)
 		{
-		case '1':      break;
-		case '2':      break;
+		case '1':  m2_2_1();      break;
+		case '2':   m2_2_1();    break;
+		case '3':   m2_2_3();    break;
+		case '4':   m2_2_4();    break;
 
 		default:   break;
 		}
 	}
 }
 
-//=================
-void menu2_3(void) { printf("正在编写中\n");  getchar(); }
-void menu2_4(void) { printf("正在编写中\n");  getchar(); }
-void menu2_5(void) { printf("正在编写中\n");  getchar(); }
-void menu2_6(void) { printf("正在编写中\n");  getchar(); }
-void menu2_7(void) { printf("正在编写中\n");  getchar(); }
+
+void dispMenu2_3() {
+	local(4, 20);  printf("C分支结构\n");
+	local(1, 24);  printf("1. if分支结构\n");
+	
+	//…… 
+	local(2, 24);  printf("0. 返回\n");
+	local(2, 20);  printf("请选择：");
+
+}
+
+
+void menu2_3(void) {
+	char cho2_3;
+	while (1) {
+		system("cls");     //调用系统命令，清屏
+		dispMenu2_3();
+		cho2_3 = getchar();     getchar();//??
+		if (cho2_3 == '0') break;
+		switch (cho2_3)
+		{
+		case '1':  m2_3_1();      break;
+		
+
+		default:   break;
+		}
+	}
+}
