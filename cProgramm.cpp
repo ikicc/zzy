@@ -43,7 +43,7 @@ void dispMenu2_1(void) {
 	colum_n(24);  printf("8. scanf()º¯Êý\n");
 	colum_n(24);  printf("9. ×Ö·ûI/O\n");
 
-	local(2, 24);  printf("0. ·µ»Ø\n");
+	local(2, 24);  printf("0. ·µ»Ø\n"); 
 	local(2, 20);  printf("ÇëÑ¡Ôñ£º");
 }
 
@@ -59,7 +59,7 @@ void menu2_1(void) {
 		switch (cho2_1)
 		{
 		case '1': m2_1_1();     break;
-		case '2':      break;
+		case '2': m2_1_2();     break;
 		case '3':      break;
 		case '4':      break;
 		case '5':      break;
