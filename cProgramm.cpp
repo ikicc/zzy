@@ -50,6 +50,8 @@ void dispMenu2_1(void) {
 #include "menu2_1.h" 
 #include "menu2_2.h" 
 #include "menu2_3.h" 
+#include "menu2_4.h" 
+#include "menu2_5.h"
 void menu2_1(void) {
 	char cho2_1;
 	while (1) {
@@ -113,7 +115,7 @@ void menu2_2(void) {
 void dispMenu2_3() {
 	local(4, 20);  printf("C分支结构\n");
 	local(1, 24);  printf("1. if分支结构\n");
-	
+	colum_n(24);  printf("2.switch分支结构\n");
 	//…… 
 	local(2, 24);  printf("0. 返回\n");
 	local(2, 20);  printf("请选择：");
@@ -126,12 +128,86 @@ void menu2_3(void) {
 	while (1) {
 		system("cls");     //调用系统命令，清屏
 		dispMenu2_3();
-		cho2_3 = getchar();     getchar();//??
+		cho2_3 = getchar();    getchar();//??
 		if (cho2_3 == '0') break;
 		switch (cho2_3)
 		{
 		case '1':  m2_3_1();      break;
+		case '2':  m2_3_2();      break;
 		
+
+		default:   break;
+		}
+	}
+}
+
+
+void dispMenu2_4() {
+	local(4, 20);  printf("C循环结构编程\n");
+	local(1, 24);  printf("1.for语句 \n");
+	colum_n(24);  printf("2.while语句\n");
+	colum_n(24);  printf("3.do-while语句\n");
+	colum_n(24);  printf("4.用于循环中的break语句和continue语句\n");
+	colum_n(24);  printf("5.goto语句\n");
+
+
+	//…… 
+	local(2, 24);  printf("0. 返回\n");
+	local(2, 20);  printf("请选择：");
+
+}
+
+void menu2_4(void) {
+	char cho2_4;
+	while (1) {
+		system("cls");     //调用系统命令，清屏
+		dispMenu2_4();
+		cho2_4 = getchar();    getchar();//??
+		if (cho2_4 == '0') break;
+		switch (cho2_4)
+		{
+		case '1':  m2_4_1();      break;
+		case '2':  m2_4_2();      break;
+		case '3':  m2_4_3();      break;
+		case '4':  m2_4_4();      break;
+		case '5':  m2_4_5();      break;
+	
+
+
+		default:   break;
+		}
+	}
+}
+
+void dispMenu2_5() {
+	local(4, 20);  printf("C函数结构编程\n");
+	local(1, 24);  printf("1.函数的定义\n");
+	colum_n(24);  printf("2.函数的声明和调用\n");
+	colum_n(24);  printf("3.函数的传值方式\n");
+	colum_n(24);  printf("4.函数的递归调用\n");
+	colum_n(24);  printf("5.函数的预处理\n");
+	colum_n(24);  printf("6.函数的结构型变量\n");
+	//…… 
+	local(2, 24);  printf("0. 返回\n");
+	local(2, 20);  printf("请选择：");
+
+}
+
+void menu2_5(void) {
+	char cho2_5;
+	while (1) {
+		system("cls");     //调用系统命令，清屏
+		dispMenu2_5();
+		cho2_5 = getchar();    getchar();//??
+		if (cho2_5 == '0') break;
+		switch (cho2_5)
+		{
+		case '1':  m2_5_1();      break;
+		case '2':  m2_5_2();      break;
+		case '3':  m2_5_3();      break;
+		case '4':  m2_5_4();      break;
+		case '5':  m2_5_5();      break;
+		case '6':  m2_5_6();      break;
 
 		default:   break;
 		}

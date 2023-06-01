@@ -18,8 +18,8 @@ int main(int argc, char** argv) {
 		case '1':   menu2_1();   break;
 		case '2':   menu2_2();   break;
 		case '3':   menu2_3();   break;
-		//case '4':   menu2_4();   break;
-		//case '5':   menu2_5();   break;
+		case '4':   menu2_4();   break;
+		case '5':   menu2_5();   break;
 		//case '6':   menu2_6();   break;
 		//case '7':   menu2_7();   break;
 		default:    break;
