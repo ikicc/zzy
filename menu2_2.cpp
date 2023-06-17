@@ -21,6 +21,7 @@ void m2_2_1(void) {
 
 
 	getchar();
+	rewind(stdin);
 
 }
 void m2_2_2(void) {
@@ -40,7 +41,7 @@ void m2_2_2(void) {
 
 
 	getchar();
-
+	rewind(stdin);
 }
 void m2_2_3(void) {
 
@@ -58,7 +59,7 @@ void m2_2_3(void) {
 
 
 	getchar();
-
+	rewind(stdin);
 }
 void m2_2_4(void) {
 
@@ -79,5 +80,5 @@ void m2_2_4(void) {
 
 
 	getchar();
-
+	rewind(stdin);
 }

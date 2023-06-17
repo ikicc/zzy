@@ -25,6 +25,8 @@
     <ClInclude Include="menu2_3.h" />
     <ClInclude Include="menu2_4.h" />
     <ClInclude Include="menu2_5.h" />
+    <ClInclude Include="menu2_6.h" />
+    <ClInclude Include="menu2_7.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cProgramm.cpp" />
@@ -34,6 +36,8 @@
     <ClCompile Include="menu2_3.cpp" />
     <ClCompile Include="menu2_4.cpp" />
     <ClCompile Include="menu2_5.cpp" />
+    <ClCompile Include="menu2_6.cpp" />
+    <ClCompile Include="menu2_7.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

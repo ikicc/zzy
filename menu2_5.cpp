@@ -17,6 +17,7 @@ void m2_5_1(void) {
 	printf("无返回值类型的函数，其返回语句形式为：return；\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_5_2(void) {
@@ -38,6 +39,7 @@ void m2_5_2(void) {
 
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_5_3(void) {
@@ -52,6 +54,7 @@ void m2_5_3(void) {
 	printf("地址传递是指在调用函数时，将实参的地址传递给形参，此时形参和实参是同一个变量，它们在内存中的存储单元是同一个。\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_5_4(void) {
@@ -67,6 +70,7 @@ void m2_5_4(void) {
 	printf("间接递归调用是指在函数的定义中，调用了其他函数，而这些函数又调用了函数本身。\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_5_5(void) {
@@ -82,6 +86,7 @@ void m2_5_5(void) {
 	printf("函数声明是指用函数原型对函数进行预处理。\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_5_6(void) {
@@ -99,4 +104,5 @@ void m2_5_6(void) {
 
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }

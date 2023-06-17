@@ -24,6 +24,7 @@ void m2_3_1(void) {
 	printf("  Óï¾ä4\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 
 }
 
@@ -48,5 +49,5 @@ void m2_3_2(void) {
 	printf("}\n");
 	printf("\n\n  ");
 	getchar();
-
+	rewind(stdin);
 }

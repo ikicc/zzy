@@ -12,6 +12,7 @@ void m2_4_1(void) {
 	printf("表达式3：循环后的增量表达式\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_4_2(void) {
@@ -25,6 +26,7 @@ void m2_4_2(void) {
 	printf(" }\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_4_3(void) {
@@ -39,6 +41,7 @@ void m2_4_3(void) {
 	printf("while(条件表达式)\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_4_4(void) {
@@ -53,9 +56,10 @@ void m2_4_4(void) {
 	printf("continue语句用于强行终止本次循环，但不会退出循环，而是继续执行循环体后面的语句。\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
-
-void m2_4_5(void) {
+void m2_4_5(void) 
+{
 
 	system("cls");     //调用系统命令，清屏
 	printf("\n\n  goto语句   \n\n  ");
@@ -63,4 +67,5 @@ void m2_4_5(void) {
 	printf("goto语句用于无条件转向执行语句标号处的语句。\n");
 	printf("\n\n  ");
 	getchar();
+	rewind(stdin);
 }
